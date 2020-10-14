@@ -3,11 +3,13 @@ Spring Boot Kafka Producer that publishes events like searching a movie in a dat
 
 This Spring Boot Application is used for publishing events to Kafka.
 
-Before Starting the Application create a database and add a table with name "moviesdata" in it.
-
-Provide your database name and MySql username and password in application.properties file.
+Before Starting the Application create a database and add a table with name "moviesdata" in MySql.
 
 The database table fields must be the fields given in MoviesModel.class under com.sbkafkaproducer.model package.
+
+Add some data to the table to fetch after running the project.
+
+Provide your database name and MySql username and password in application.properties file.
 
 
 *************************************
